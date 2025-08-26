@@ -1,6 +1,9 @@
 #include "widget.h"
 
+#include <QThread>
 #include <QApplication>
+#include "cmdevice.h"
+#include "cmprotocolhandler.h"
 
 int main(int argc, char *argv[])
 {
